@@ -1,0 +1,95 @@
+.feature-text {
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.main-text span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2a2a2a;
+    padding: 15px 10px;
+    box-shadow: 0px 3px rgb(186, 184, 184);
+}
+
+.feature-text p {
+    margin-top: 35px;
+    color: #797979;
+}
+
+
+
+.product-1 {
+    position: relative;
+    left: 0px;
+}
+
+.hover-views {
+    position: relative;
+    width: 86.5%;
+
+}
+
+.hover-views a {
+    font-size: 15px;
+    margin-right: 20px;
+    color: black;
+    border-radius: 45px;
+    background-color: white;
+    padding: 8px 8px;
+}
+
+.product-hov {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(113, 205, 20, 0.4);
+    transition: all 0.8s ease-in-out;
+}
+
+.product-box:hover .product-hov {
+    transform: translateY(-40px);
+}
+
+.text-boxes {
+    background-color: #ffff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.text-boxes a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-boxes h3 {
+    /* padding: 15px 0px; */
+    margin-left: 25px;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.hover-views a:hover {
+    color: #71cd14;
+}
+
+.price {
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.d-price {
+    margin-left: 25px;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+.hover-view a:hover {
+    background-color: #71cd14;
+    color: white;
+}

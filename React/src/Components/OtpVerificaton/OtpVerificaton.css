@@ -1,0 +1,38 @@
+ #cont {
+     max-width: 400px;
+     margin: 50px auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     text-align: center;
+     margin-top: 10rem;
+ }
+
+ #otpMessage {
+     margin-top: 20px;
+     font-weight: bold;
+ }
+ #cont h2{
+    color: #71cd14;
+ }
+
+ #submit {
+     background-color: #71cd14;
+     color: #ffff;
+     font-size: 14px;
+     padding: 5px 25px;
+     font-weight: 500;
+     text-transform: uppercase;
+     border: none;
+     border-radius: 8px;
+ }
+ #resendButton{
+    background-color: #71cd14;
+        color: #ffff;
+        font-size: 14px;
+        padding: 5px 25px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+ }

@@ -1,0 +1,92 @@
+footer {
+    background: #0d0d1f;
+    height: 500px;
+}
+
+.top-product ul {
+    color: white;
+    list-style: none;
+    margin-left: 90px;
+    text-transform: capitalize;
+}
+
+.top-product ul li a {
+    color: #797979;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-product ul li a:hover {
+    color: white;
+}
+
+.top-product ul h4 {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+}
+
+.top-product {
+    margin-top: 100px;
+}
+
+.product-rows {
+    display: flex;
+}
+
+.top-product ul li {
+    margin: 30px 0px;
+}
+
+form input[type="email"] {
+    height: 50px;
+    width: 70%;
+    background-color: rgb(255, 255, 255, 0.15);
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 300;
+    outline: none;
+}
+
+form input[type="button"] {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #71cd14;
+    color: #ffffff;
+    padding: 10px 9px;
+    border: 0;
+    position: relative;
+    left: -12%;
+}
+
+.para {
+    color: #797979;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-left: 35px;
+}
+
+.footer-text {
+    color: #ffffff;
+    margin: 30px 50px;
+}
+
+.footer-logo {
+    margin: 30px 220px;
+}
+
+.footer-logo a {
+    background-color: rgb(255, 255, 255, 0.15);
+    padding: 15px 15px;
+    color: #ffffff;
+}
+
+.footer-logo a:hover {
+    background-color: #71cd14;
+}

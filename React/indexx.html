@@ -1,0 +1,162 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 50px;
+            max-width: 600px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(0);
+        }
+
+        .card-hidden {
+            transform: translateX(100%);
+        }
+
+        .card-prev {
+            transform: translateX(-100%);
+        }
+
+        .card-header {
+            background-color: #fff;
+            border-bottom: none;
+            font-size: 24px;
+            padding-bottom: 0;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .btn-primary {
+            background-color: #ff3e6c;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff227c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                Enter your delivery details
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobileNumber">Mobile Number</label>
+                        <input type="text" class="form-control" id="mobileNumber"
+                            placeholder="Enter your mobile number">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="pincode">Pincode</label>
+                            <input type="text" class="form-control" id="pincode" placeholder="Enter your pincode">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="addressType">Address Type</label>
+                            <select class="form-control" id="addressType">
+                                <option>Home</option>
+                                <option>Work</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                    </div>
+                    <div class="form-group">
+                        <label for="locality">Locality</label>
+                        <input type="text" class="form-control" id="locality" placeholder="Enter your locality">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" class="form-control" id="state" placeholder="Enter your state">
+                    </div>
+                    <div class="form-group">
+                        <label for="landmark">Landmark (Optional)</label>
+                        <input type="text" class="form-control" id="landmark" placeholder="Enter a landmark (optional)">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="saveAddress">
+                        <label class="form-check-label" for="saveAddress">Save Address</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Save and Continue</button>
+                </form>
+            </div>
+        </div>
+        <button id="prevBtn" class="btn btn-secondary mt-3" onclick="goBack()">Previous</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function goBack() {
+            document.querySelector('.card').classList.add('card-prev');
+        }
+    </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Coordinates</title>
+</head>
+
+<body>
+    <div id="coordinates">Move your mouse to see coordinates here.</div>
+
+    <script>
+        document.addEventListener('mousemove', function (event) {
+            // Get the x and y coordinates
+            var x = event.clientX;
+            var y = event.clientY;
+
+            // Display the coordinates
+            var coordsDisplay = document.getElementById('coordinates');
+            coordsDisplay.textContent = 'X: ' + x + ', Y: ' + y;
+        });
+    </script>
+</body>
+
+</html>

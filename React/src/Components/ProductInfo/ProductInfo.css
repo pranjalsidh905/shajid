@@ -1,0 +1,20 @@
+#btn1 {
+    border-color: #71cd14;
+    color: #71cd14;
+}
+
+#btn1:hover {
+    border-color: #71cd14;
+    color: #71cd14;
+}
+
+#btn2 {
+    background-color: #71cd14;
+    color: white;
+}
+
+#btn2:hover {
+    background-color: white;
+    color: #71cd14;
+    border-color: #71cd14;
+}

@@ -1,0 +1,155 @@
+  .product-image {
+      width: 112px;
+      height: 112px;
+  }
+
+  .discounted-price {
+      text-decoration: line-through;
+      margin-right: 10px;
+  }
+
+  .quantity-control {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+  }
+
+  .quantity-control button {
+      border: none;
+      background-color: #ddd;
+      width: 30px;
+      height: 30px;
+  }
+
+  .quantity-control input {
+      width: 50px;
+      text-align: center;
+  }
+
+
+  .price-details {
+      padding: 0 16px;
+  }
+
+  .price-details-header {
+      font-weight: bold;
+      margin-bottom: 15px;
+  }
+
+  .price-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+  }
+
+  .price-item .price-label {
+      color: #878787;
+  }
+
+  .price-item .price-value {
+      font-weight: bold;
+  }
+
+  .total-amount {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+
+  .savings-message {
+      color: #388e3c;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+
+  .footer-note {
+      padding: 20px 0 0;
+      text-align: center;
+      font-size: 14px;
+      color: #878787;
+  }
+
+  .btn-remove {
+      background-color: #ffff;
+      color: #71cd14;
+      border:1px solid;
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+  }
+
+  .btn-remove:hover {
+      background-color: #71cd14;
+      color: white;
+  }
+
+  .product-info {
+      margin-left: 10px;
+  }
+  .right{
+   margin-left: 90px;
+  }
+  .left{
+   margin-left: 30px;
+  }
+  .empty-cart-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      text-align: center;
+      color: #333;
+  }
+
+  .empty-cart-image {
+      max-width: 300px;
+      margin-bottom: 20px;
+  }
+
+  h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+  }
+
+  p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+  }
+
+  .shop-now-btn {
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  .shop-now-btn:hover {
+      background-color: #0056b3;
+  }
+
+  .view-btn {
+    background-color: #71cd14;
+    color: white;
+  }
+
+  .view-btn:hover {
+    background-color: white;
+    color: #71cd14;
+    border-color: #71cd14;
+    border: 1px solid ;
+  }
+  #btn1 {
+      border-color: #71cd14;
+      color: #71cd14;
+  }
+
+  #btn1:hover {
+      /* border-color: #71cd14; */
+      background-color: #71cd14;
+      color: white;
+  }

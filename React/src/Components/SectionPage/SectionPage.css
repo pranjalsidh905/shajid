@@ -1,0 +1,68 @@
+.section-page {
+    background: url(https://themewagon.github.io/eiser/img/banner/banner-bg.jpg) no-repeat center bottom;
+    background-size: cover;
+    min-height: 900px;
+    min-width: 1400px;
+    z-index: 1;
+}
+
+.section-container {
+    min-height: 900px;
+    position: relative;
+    width: 100%;
+}
+
+.d-flexs {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-image {
+    /* margin-left: 200px; */
+    color: #ffff;
+    width: 100%;
+    padding-left: 180px;
+    padding-right: 150px;
+}
+
+.text-image h3 {
+    font-size: 14px;
+    color: #ffff;
+}
+
+.text-image h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 15px -3px;
+}
+
+.text-image h1 span {
+    color: #71cd14;
+}
+
+.text-image p {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.collection {
+    margin-top: 40px;
+}
+
+.collection button {
+    background-color: #71cd14;
+    color: #ffff;
+    font-size: 14px;
+    padding: 15px 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+}
+
+.collection button:hover {
+    background-color: transparent;
+    color: #71cd14;
+    border: 1px solid #71cd14;
+}

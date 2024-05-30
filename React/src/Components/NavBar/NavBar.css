@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header {
+    background-color: #ffff;
+
+}
+
+.containers {
+    height: 30px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cont {
+    background-color: #f6f6f6;
+}
+
+.header-left {
+    display: flex;
+    position: absolute;
+    left: 0px;
+}
+
+.header-left p {
+    margin: 10px 15px;
+}
+
+.header-right ul {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    list-style: none;
+}
+
+.header-right ul li {
+    margin: 10px 25px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-down {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    left: 180px;
+}
+
+.bar ul {
+    display: flex;
+    margin: 10px 205px;
+    padding: 0px 20px;
+    list-style: none;
+
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 40px;
+}
+
+.bar-right ul li a:hover {
+    color: #71cd14;
+}
+
+.icon i{
+    font-size: 16px;
+    line-height: 40px;
+    color: #4a4a4a;
+    margin: 0px 10px;
+}
+
+.bar-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-bar-right {
+    display: flex;
+}
+.bar-right{
+    margin-left: -80px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger button {
+    margin-left: 30rem;
+    color: #1641ff;
+    border: none;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.userdrop:hover .usermenu{
+    display: block;
+}
+
+.navbar {
+    max-width: 3000px;
+}
+
+@media(max-width:1536px) {
+    .navbar {
+        width: 1280px;
+    }
+}
+
+@media(max-width:1280px) {
+    .navbar {
+        width: 1024px;
+    }
+}
+
+@media(max-width:1024px) {
+    .navbar {
+        width: 768px;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar {
+        width: 648px;
+    }
+}
+
+@media(max-width:648px) {
+    .navbar {
+        width: 475px;
+    }
+}
+
+@media(max-width:475px) {
+    .navbar {
+        width: 100%;
+    }
+}

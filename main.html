@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .price-details {
+            padding: 0 16px;
+        }
+
+        .price-details-header {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .price-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .price-item .price-label {
+            color: #878787;
+        }
+
+        .price-item .price-value {
+            font-weight: bold;
+        }
+
+        .total-amount {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .savings-message {
+            color: #388e3c;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .footer-note {
+            padding: 20px 0 0;
+            text-align: center;
+            font-size: 14px;
+            color: #878787;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="price-details border p-3">
+                    <div class="price-details-header">Price Details</div>
+                    <div class="price-item">
+                        <div class="price-label">Price (1 item)</div>
+                        <div class="price-value">₹62,500</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">Discount</div>
+                        <div class="price-value text-danger">− ₹36,375</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="price-label">Delivery Charges</div>
+                        <div class="price-value">
+                            <span class="text-muted">₹40</span>
+                            <span class="text-success ml-2">Free</span>
+                        </div>
+                    </div>
+                    <div class="price-item total-amount">
+                        <div class="price-label">Total Amount</div>
+                        <div class="price-value">₹26,125</div>
+                    </div>
+                    <div class="savings-message">
+                        You will save ₹36,375 on this order
+                    </div>
+                </div>
+                <div class="footer-note">
+                    Safe and Secure Payments. Easy returns. 100% Authentic products.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
